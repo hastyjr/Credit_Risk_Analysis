@@ -22,21 +22,21 @@ The results of this portion of the analysis are as follows:
 
 The confusion matrix for the random oversampling model is as follows:
 
-![Random Oversampling Confusion Matrix]()
+![Random Oversampling Confusion Matrix](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/Random%20Oversampling%20Confusion%20Matrix.png)
 
 he classification report for the random oversampling model is as follows:
 
-![Random Oversampling Classification Report]()
+![Random Oversampling Classification Report](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/Random%20Oversampling%20Classification%20Report.png)
 
 - The balanced accuracy score for the `EasyEnsembleClassifier` is `0.5`.
 
 The confusion matrix for the `EasyEnsembleClassifier` is as follows:
 
-![Easy Ensemble Confusion Matrix]()
+![Easy Ensemble Confusion Matrix](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/EasyEnsembleClassifier%20Confusion%20Matrix.png)
 
 The classification report for the `EasyEnsembleClassifier` is as follows:
 
-![Easy Ensemble Classification Report]()
+![Easy Ensemble Classification Report](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/EasyEnsembleClassifier%20Classification%20Report.png)
 
 #### Use of SMOTEENN algorithm to Predict Credit Risk
 
@@ -50,12 +50,11 @@ The results of this portion of the analysis are as follows:
 
 - The confusion matrix for the SMOTEENN combination sampling model is as follows:
 
-![SMOTEENN Confusion Matrix]()
+![SMOTEENN Confusion Matrix](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/SMOTEEN%20Confusion%20Matrix.png)
 
 - The classification report for the SMOTEENN combination sampling model is as follows:
 
-![SMOTEENN Classification Report]()
-
+![SMOTEENN Classification Report](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/SMOTEEN%20Classification%20Report.png)
 
 #### Ensemble Classifiers to Predict Credit Risk
 
@@ -68,17 +67,19 @@ Similar to the previous models, I resampled the dataset, viewed the count of the
 The results of this portion of the analysis are as follows:
 
 #### Balanced Random Forest Classifier
+
 - The balanced accuracy score for the `BalancedRandomForestClassifier` is `0.9949433304272014`.
 
 - The confusion matrix for the `BalancedRandomForestClassifier` is as follows:
 
-![Balanced Random Forest Confusion Matrix]()
+![Balanced Random Forest Confusion Matrix](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/Balanced%20Random%20Forest%20Classifier%20Confusion%20Matrix.png)
 
 - The classification report for the `BalancedRandomForestClassifier` is as follows:
 
-![Balanced Random Forest Classification Report]()
+![Balanced Random Forest Classification Report](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/Balanced%20Random%20Forest%20Classifier%20Classification%20Report.png)
 
 #### Easy Ensemble AdaBoost Classifier
+
 - The balanced accuracy score for the `EasyEnsembleClassifier` is `0.9446672478930543`.
 
 - The confusion matrix for the `EasyEnsembleClassifier` is as follows:
@@ -88,8 +89,6 @@ The results of this portion of the analysis are as follows:
 - The classification report for the `EasyEnsembleClassifier` is as follows:
 
 ![Easy Ensemble Classification Report]()
-
-
 
 ### Summary
 
@@ -104,7 +103,9 @@ The easy ensemble classifier model has the highest balanced accuracy score of 0.
 
 ### Random Oversampling
 
-The balanced accuracy score for the random oversampling model is 0.65. The confusion matrix for the random oversampling model is as follows:
+The balanced accuracy score for the random oversampling model is 0.65.
+
+The confusion matrix for the random oversampling model is as follows:
 
 ![Random Oversampling Confusion Matrix]()
 
@@ -114,7 +115,9 @@ The classification report for the random oversampling model is as follows:
 
 ### SMOTE Oversampling
 
-The balanced accuracy score for the SMOTE oversampling model is 0.66. The confusion matrix for the SMOTE oversampling model is as follows:
+The balanced accuracy score for the SMOTE oversampling model is 0.66.
+
+The confusion matrix for the SMOTE oversampling model is as follows:
 
 ![SMOTE Oversampling Confusion Matrix]()
 
