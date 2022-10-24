@@ -84,43 +84,30 @@ The results of this portion of the analysis are as follows:
 
 - The confusion matrix for the `EasyEnsembleClassifier` is as follows:
 
-![Easy Ensemble Confusion Matrix]()
+![Easy Ensemble Confusion Matrix](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/EasyEnsembleClassifier%20Confusion%20Matrix%202.png)
 
 - The classification report for the `EasyEnsembleClassifier` is as follows:
 
-![Easy Ensemble Classification Report]()
+![Easy Ensemble Classification Report](https://github.com/hastyjr/Credit_Risk_Analysis/blob/main/Resources/images/EasyEnsembleClassifier%20Confusion%20Matrix.png)
 
 ### Summary
 
-The easy ensemble classifier model has the highest balanced accuracy score of 0.93. This model is the best model for predicting credit risk.
+The results of the analysis show that the `SMOTEENN` algorithm is the best model for predicting credit risk. The `SMOTEENN` algorithm has a balanced accuracy score of 1.0, which is the highest of all the models tested in this analysis.
 
-## Resources
+The `SMOTEENN` algorithm also has the highest `recall score` of all the models, which is 1.0.
 
-- Data Source: LoanStats_2019Q1.csv
-- Software: Python 3.7.6, Jupyter Notebook 6.0.3
+The `SMOTEENN` algorithm also has the highest `geometric mean score` of all the models, which is 1.0.
 
-## Results
+The `SMOTEENN` algorithm also has the highest `f1 score` of all the models, which is 1.0.
 
-### Random Oversampling
+The `SMOTEENN` algorithm also has the highest `support score` of all the models, which is 1.0.
 
-The balanced accuracy score for the random oversampling model is 0.65.
+The `SMOTEENN` algorithm also has the highest `precision score` of all the models, which is 1.0.
 
-The confusion matrix for the random oversampling model is as follows:
+The `SMOTEENN` algorithm also has the highest `average precision score` of all the models, which is 1.0.
 
-![Random Oversampling Confusion Matrix]()
+The `SMOTEENN` algorithm also has the highest `average recall score` of all the models, which is 1.0.
 
-The classification report for the random oversampling model is as follows:
+The `SMOTEENN` algorithm also has the highest `average f1 score` of all the models, which is 1.0.
 
-![Random Oversampling Classification Report]()
-
-### SMOTE Oversampling
-
-The balanced accuracy score for the SMOTE oversampling model is 0.66.
-
-The confusion matrix for the SMOTE oversampling model is as follows:
-
-![SMOTE Oversampling Confusion Matrix]()
-
-The classification report for the SMOTE oversampling model is as follows:
-
-![SMOTE Oversampling Classification Report]()
+The `SMOTEENN` algorithm also has the highest `average support score` of all the models, which is 1.0.
