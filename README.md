@@ -94,20 +94,23 @@ The results of this portion of the analysis are as follows:
 
 The results of the analysis show that the `SMOTEENN` algorithm is the best model for predicting credit risk. The `SMOTEENN` algorithm has a balanced accuracy score of 1.0, which is the highest of all the models tested in this analysis.
 
-The `SMOTEENN` algorithm also has the highest `recall score` of all the models, which is 1.0.
+The `SMOTEENN` algorithm also has the highest 
 
-The `SMOTEENN` algorithm also has the highest `geometric mean score` of all the models, which is 1.0.
+- `recall score` of all the models, which is 1.0.
 
-The `SMOTEENN` algorithm also has the highest `f1 score` of all the models, which is 1.0.
+- `geometric mean score` of all the models, which is 1.0.
 
-The `SMOTEENN` algorithm also has the highest `support score` of all the models, which is 1.0.
+- `f1 score` of all the models, which is 1.0.
 
-The `SMOTEENN` algorithm also has the highest `precision score` of all the models, which is 1.0.
+- `support score` of all the models, which is 1.0.
 
-The `SMOTEENN` algorithm also has the highest `average precision score` of all the models, which is 1.0.
+- `precision score` of all the models, which is 1.0.
 
-The `SMOTEENN` algorithm also has the highest `average recall score` of all the models, which is 1.0.
+- `average precision score` of all the models, which is 1.0.
 
-The `SMOTEENN` algorithm also has the highest `average f1 score` of all the models, which is 1.0.
+- `average recall score` of all the models, which is 1.0.
 
-The `SMOTEENN` algorithm also has the highest `average support score` of all the models, which is 1.0.
+- `average f1 score` of all the models, which is 1.0.
+
+- `average support score` of all the models, which is 1.0.
+
